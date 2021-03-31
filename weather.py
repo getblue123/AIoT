@@ -56,6 +56,3 @@ for item in Select(browser.find_element_by_id('station')).options:
     changeName(f"{item.text}.csv")
 
     break
-
-fileList = []
-for f
